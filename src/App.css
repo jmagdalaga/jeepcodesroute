@@ -1,0 +1,88 @@
+.container {
+  margin: 50px auto;
+  max-width: 500px;
+  text-align: center;
+  background-color: #CC7722;
+  color: black;
+  font-size: 25px;
+  padding: 20px; /* Add padding to the container */
+  box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.1);
+}
+
+h1 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: white; /* Golden yellow */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.1);
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+input {
+  margin: 10px 0;
+  padding: 15px;
+  border: 3px solid black;
+  font-size: 16px;
+  background-color: #F4BB44;
+  color: BLACK;
+  transition: border-color 0.3s ease;
+}
+
+input:focus {
+  border-color: #CC7722; 
+}
+
+button {
+  padding: 15px 30px;
+  background-color: #FF5F1F;
+  color: black;
+  font-weight: bold;
+  border: 3px solid black;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 200px;
+}
+
+button:hover {
+  background-color: #F4BB44; 
+}
+
+.output {
+  margin-top: 20px;
+  padding: 20px;
+  font-size: 20px;
+  background-color: #F4BB44;
+  box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.1);
+  border: 3px solid black;
+}
+
+.output span {
+  padding: 3px 5px;
+  border-radius: 3px;
+}
+
+.output span.red {
+  background-color: #ff4d4d;
+  color: white;
+}
+
+.output span.green {
+  background-color: #66cc66; 
+  color: white;
+}
+
+.output span.blue {
+  background-color: #007bff; 
+  color: white;
+}
+
+.output span.orange {
+  background-color: #ff9933; 
+  color: white;
+}
+
+.output span.purple {
+  background-color: #9933ff; 
+  color: white;
+}
